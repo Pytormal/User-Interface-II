@@ -59,10 +59,10 @@ header{
     background-color: grey;
 }
 nav{
-    back
+    background-color: lightgrey;
 }
 nav{
-    padding: top 5px;
+    padding-top: 5px;
     margin-bottom: 25px;
 }
 body section p{
@@ -76,7 +76,8 @@ body section p{
 }
 .right-text{
       float: right;
-      border-right: 300p;
+      border-right: 300px;
+      flex-direction: column;
 }
 
 .left-big-picture, .right-text{
@@ -88,5 +89,5 @@ body section p{
     height: 25px;
     width: 20px;
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
 }
