@@ -134,7 +134,7 @@ figcaption{
 footer{
     background-color: grey;
 }
-footer, .bottom-nav{
+footer, .bottom-nav, .button1{
     text-align: center;
     line-height: 50px;
     background-color: grey;
@@ -143,5 +143,44 @@ footer, .bottom-nav{
 
 .bottom-nav{
     border: 1px;
+}
 
+/* social media links */
+
+/* Style */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* Linkedin */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #474eb3;
+  color: white;
 }
