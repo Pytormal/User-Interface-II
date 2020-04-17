@@ -1,0 +1,63 @@
+html{
+    font-size: 10px;
+}
+@media (max-width:1500px){
+    h1 {
+        font-size: 5rem;
+        width: auto;
+    }
+    .top-nav{
+        font-size:2rem;
+    }
+    .left-big-picture {
+        display:none;
+    }
+    .right-text{
+        background-color: red;
+        background-image: url("https://picsum.photos/id/808/367/267") ;
+    }
+    .row1, .row2{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1%;
+    }
+    img, .row1 {
+        display:flex;
+        flex-direction: row;
+        width: 1%;
+        margin-left: inherit;
+        
+    }
+
+}
+
+@media (max-width:800px){
+    h1 {
+        font-size: 1.4rem;
+        width: 2rem;
+    }
+    .left-big-picture {
+        display:none;
+    }
+    .right-text{
+        background-color: red;
+        background-image: url("https://picsum.photos/id/808/367/267") ;
+    }
+    .row1, .row2{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50vw;
+        padding: 0;
+    }
+    img, .row1 {
+        display:flex;
+        flex-direction: row;
+        width: 1rem;
+        margin-left: inherit;
+        
+    }
+
+}
+

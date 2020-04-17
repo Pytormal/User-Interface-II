@@ -2,6 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html{
+    font-size: 10px;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -18,8 +21,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
+    border: 0;
+    font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -50,20 +53,20 @@ table {
 /*  */
 
 header, nav, p, section, body{
-    margin: 2px;
-    border: 2px solid blue;
+    margin: .5rem;
+    border: .1rem solid blue;
 }
 header, h1{
     text-align: center;
-    line-height: 50px;
+    line-height: 5rem;
     background-color: grey;
-    font-size: 50px;
+    font-size: 2rem;
 }
 nav{
-    padding-top: 5px;
-    margin-bottom: 25px;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
     background-color: lightgrey;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 footer{
     background-color: grey;
@@ -71,8 +74,8 @@ footer{
 
 footer, .bottom-nav{
     text-align: center;
-    line-height: 50px;
+    line-height: 2rem;
     background-color: grey;
-    font-size: 20px;
+    font-size: 1.5rem;
     
 }
