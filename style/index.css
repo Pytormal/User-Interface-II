@@ -50,6 +50,14 @@ table {
 
 /*  */
 
+    img, .row1 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display:flex;
+        flex-direction: row;
+        margin-left: inherit;
+    }
+    
 header, nav, p, section, body{
     margin: 2px;
     border: 2px solid blue;
