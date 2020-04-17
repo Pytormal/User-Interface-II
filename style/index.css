@@ -4,6 +4,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,29 +51,27 @@ table {
 
 /*  */
 
-    img, .row1 {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        display:flex;
-        flex-direction: row;
-        margin-left: inherit;
-    }
-    
+html{
+    font-size: 10px;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
 header, nav, p, section, body{
-    margin: 2px;
-    border: 2px solid blue;
+    margin: .2rem;
 }
 header, h1{
     text-align: center;
-    line-height: 50px;
     background-color: grey;
-    font-size: 50px;
 }
+
 nav{
-    padding-top: 5px;
-    margin-bottom: 25px;
+    padding-top: .5rem;
+    margin-bottom: 2.5rem;
     background-color: lightgrey;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 body, section, p{
     margin-bottom: 15px;
@@ -81,7 +80,8 @@ body, section, p{
 .toprow{
     display: flex;
     flex-direction: row;
-    margin: 0px;
+    text-align: center;
+    margin: 0rem;
 }
 
 .left-big-picture{
@@ -90,26 +90,27 @@ body, section, p{
     Width: 50%;
 }
 .right-text{
-    margin-top: 50px;
-    padding: 50px;
+    margin-top: 5rem;
+    padding: 5rem;
+    font-size: 3rem;
 }
 
 /* button */
 .button {
-	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	box-shadow:inset 0rem .1rem 0rem 0rem #f7c5c0;
 	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
 	background-color:#fc8d83;
-	border-radius:6px;
-	border:1px solid #d83526;
+	border-radius:.6rem;
+	border:.1rem solid #d83526;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:15px;
+	font-size:1.5rem;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:.6rem 2.4rem;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #b23e35;
+	text-shadow:0rem .1rem 0rem #b23e35;
 }
 .button:hover {
 	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
@@ -117,21 +118,21 @@ body, section, p{
 }
 .button:active {
 	position:relative;
-	top:1px;
+	top:.1rem;
 }
 /* end of button */
 .row1{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    margin: 5px;
+    padding: 2rem;
+    margin: .5rem;
     max-width: 100%;
 }
 .row2{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    margin: 5px;
+    padding: 2rem;
+    margin: .5rem;
     max-width: 100%;
 }
 
@@ -144,13 +145,13 @@ footer{
 }
 footer, .bottom-nav, .button1{
     text-align: center;
-    line-height: 50px;
+    line-height: 5rem;
     background-color: grey;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .bottom-nav{
-    border: 1px;
+    border: .1rem;
 }
 
 /* social media links */
