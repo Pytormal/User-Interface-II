@@ -1,0 +1,71 @@
+nav {
+  width: auto;
+  padding: 1rem 0;
+  margin-bottom: 2.5rem;
+  font-size: 1.6rem;
+
+  .flex-row-evenly;
+  .topnav {
+    overflow: show;
+  }
+  @media @Mmmobile {
+    .flex-column;
+    .flex-center-end;
+    .flex-column-reverse;
+  }
+  @media @Ssmobile {
+    .flex-column;
+    .flex-center-end;
+    .flex-column-reverse;
+  }
+   // Navigation menu
+  h1{
+      font-size: 1rem;
+  }
+  .topnav {
+    background-color: lightskyblue;
+    width: auto;
+    .flex-row;
+  }
+
+  // Style navigation Menu links
+  .menu-button {
+    .flex-evenly;
+
+    // (nested) Hide the links inside the navigation menu (except for logo/home)
+    #myLinks {
+      display: none;
+    }
+
+    //Style the hamburger menu
+    .icon {
+      // background: blue;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: transparent;
+    }
+    a {
+      color: lightseagreen;
+      padding: 1rem 1.2rem;
+      text-decoration: none;
+      font-size: 1.6rem;
+      margin: 0 auto;
+      background-color: lightgoldenrodyellow;
+      height: auto;
+      border-radius: 2rem;
+      :hover {
+        // background-color: grey;
+        color: goldenrod;
+      }
+    }
+  }
+}
+.search {
+  @media @4k {
+    width: 50rem;
+  }
+}
+
+

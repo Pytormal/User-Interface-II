@@ -1,0 +1,130 @@
+// mobile design first (Small Mobile)
+nav {
+  #myLinks:hover {
+    a:hover {
+      padding: 2rem;
+      color: green;
+      font-size: 2em;
+      font-weight: bolder;
+
+      background: linear-gradient(
+        to right,
+        skyblue 10%,
+        yellow 45%,
+        crimson 70%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+
+      transition: background-position 1200ms ease;
+    }
+  }
+}
+
+header {
+  .flex-column;
+  align-items: flex-end;
+  padding: 2rem 1rem;
+  width: auto;
+  margin: 2px;
+  div {
+    padding: 2rem 0.2rem;
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  @media @Mmobile {
+    div {
+      padding: 2rem 1rem;
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        text-align: center;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+main {
+  height: 60vh;
+}
+// img{
+//   display:relative;
+// }
+// .horizontal-scroll img:hover{
+// border:2rem solid crimson;
+// }
+/* button */
+.button {
+  box-shadow: inset 0rem 0.1rem 0rem 0rem #572723b7;
+  background: linear-gradient(to bottom, #fc8d83 5%, violet 100%);
+  background-color: #fc8d83;
+  border-radius: 0.6rem;
+  border: 0.1rem solid #d83526;
+  display: inline-block;
+  cursor: pointer;
+  color: snow;
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.6rem 2.4rem;
+  text-decoration: none;
+  text-shadow: 0rem 0.1rem 0rem #b23e35;
+  transition: 0.5s;
+}
+.button:hover {
+  background: linear-gradient(to bottom, #70e70e 20%, #7418b104 100%);
+  background-color: #23cec060;
+  color: rgb(54, 16, 37);
+}
+.button:active {
+  position: relative;
+  top: 0.1rem;
+}
+/* end of button 1*/
+
+// button 2
+
+.button2 {
+  box-shadow: inset 0rem 0.1rem 0rem 0rem #572723b7;
+  background: linear-gradient(to bottom, #854a45 5%, violet 100%);
+  background-color: #a85f58;
+  border-radius: 0.6rem;
+  border: 0.1rem solid #d83526;
+  display: inline-block;
+  cursor: pointer;
+  color: snow;
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.6rem 2.4rem;
+  text-decoration: none;
+  text-shadow: 0rem 0.1rem 0rem #b23e35;
+  transition: 0.5s;
+}
+.button2:hover {
+  background: linear-gradient(to top, #820dd1cb 10%, #7418b104 100%);
+  background-color: #1e3f3c60;
+  color: #50df0e;
+}
+.button2:active {
+  position: relative;
+  top: 0.1rem;
+}
+
+// end of button 2
+
+.fa-do a:hover {
+  background-color: #23cec000;
+  color: #f16392;
+  text-decoration: none;
+}

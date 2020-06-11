@@ -1,0 +1,96 @@
+body,
+section,
+p {
+  //Main Section
+  .rowA-bio-field {
+    .bio-tag{
+      height: 10rem;
+    }
+    text-align: center;
+    padding: 2rem 1rem;
+   
+    img {
+      width: 70%;
+      height: auto;
+
+      @media @Lmobile {
+        width: 6rem;
+        height: 6rem;
+      }
+      @media @tablet {
+        padding: 1rem 0 0 0;
+        width: 15rem;
+        height: auto;
+      }
+    }
+    //row1A section
+    @media @desktop {
+      .row1A {
+        width: auto;
+      }
+    }
+    @media @4k {
+      img {
+        width: 25rem;
+        height: auto;
+      }
+    }
+
+    //row1A section text1
+    .row1A-img-text1 {
+      @media @Lmobile {
+        .flex-row;
+        padding: 3rem 1rem;
+      }
+
+      @media @tablet {
+        .flex-column;
+        width: auto;
+      }
+    }
+    //text2
+    .row1A-img-text2 {
+      @media @Lmobile {
+        .flex-row-reverse;
+        padding: 3rem 1rem;
+      }
+      @media @tablet {
+        .flex-column;
+        width: auto;
+      }
+    }
+    //row2A section
+    @media @desktop {
+      .row2A {
+        width: auto;
+      }
+    }
+
+    //row2A section text1
+    .row2A-img-text1 {
+      @media @Lmobile {
+        .flex-row;
+        padding: 3rem 1rem;
+      }
+      @media @tablet {
+        .flex-column;
+        width: auto;
+      }
+    }
+    //text2
+    .row2A-img-text2 {
+      @media @Lmobile {
+        .flex-row-reverse;
+        padding: 3rem 1rem;
+      }
+      @media @tablet {
+        .flex-column;
+        width: auto;
+      }
+    }
+    @media @tablet {
+      .flex-row;
+    }
+  }
+}
+ 

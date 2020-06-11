@@ -1,34 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style\styles.css">
-    <title>Contact AlexAndrew</title>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link tags -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <link rel="icon" href="Pictures/Portfolio Logo.png" />
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Carousel Reference -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--scripts  -->
+    <script src="main.js"></script>
+
+    <!-- title -->
+    <title>Welcome Home</title>
 </head>
 
-<header>
-    <h1>AlexAndrew Mallory</h1>
-    <Nav>
-        <class="top-nav">
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-    </Nav>
+<!-- navigation -->
+<nav>
+    <ul class="top-nav">
+        <h1>Alex Andrew's Portfolio</h1>
+
+        <a href="/home.html" class="home-button"><img src="Pictures/Portfolio Logo.png" /></a>
+
+        <!-- search bar -->
+        <form id="sarchform" class="search2" method="get" action="source.html">
+
+            <input class="search2" id="test" type="text" name="search" placeholder="Search the site" size="10"
+                maxlength="255" />
+    </ul>
+
+    <!-- Navigation links (hidden by default) -->
+    <ul class="menu-button">
+        <div id="myLinks">
+            <a href="/Projects.html">Projects</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/about.html">About</a>
+        </div>
+
+        <!--"Hamburger menu" / "Bar icon" to toggle the navigation links-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+    </ul>
+</nav>
+
+<header class="header">
+
+    <div class="about-me-bio">
+        <h2 class="about-me-header">Need to contact me?</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum
+            lacinia dui sit amet pulvinar. Nullam eu commodo arcu. Proin eu nulla
+            odio. Mauris molestie hendrerit vehicula.
+        </p>
+    </div>
 </header>
 
-<body>
-    <h1> CONTACT </h1>
-</body>
-
+<body></body>
 <footer>
-    <section>
-        <p>Like what you see?</p>
-        <nav class="bottom-nav">Contact Me</nav>
-    </section>
-
+    <nav>
+        <ul class="bottom-nav">
+            <section>
+                <a href="contact.html" class="button">Contact Me<br /></a>
+    
+                <a href="/Projects.html" class="button2">My Projects</a>
+            </section>
+    
+            <section class="fa-do">
+                <a class="fa fa-linkedin" href="https://www.linkedin.com/in/mallory-alexandrew/" target="_blank"></a>
+    
+                <a class="fa fa-facebook" href="https://www.facebook.com/pytormal" target="_blank"></a>
+    
+                <a class="fa fa-twitter" href="https://www.twitter.com/pytormal" target="_blank"></a>
+    
+                <a class="fa fa-instagram" href="https://www.instagram.com/alexandrewmallory/" target="_blank"></a>
+            </section>
+        </ul>
+    </nav>
 </footer>
-
 </html>
