@@ -175,6 +175,15 @@ header div p {
 main {
   height: 100vh;
 }
+main .about-me-bio2 {
+  margin: 0 auto;
+  width: 20rem;
+}
+@media (min-width: 768px) {
+  main .about-me-bio2 {
+    width: 50rem;
+  }
+}
 /* button */
 .button {
   box-shadow: inset 0rem 0.1rem 0rem 0rem #572723b7;
