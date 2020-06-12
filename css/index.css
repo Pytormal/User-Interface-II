@@ -137,7 +137,11 @@ nav #myLinks:hover a:hover {
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 1200ms ease;
+  transition: background-position 1s;
+}
+nav img:hover {
+  -webkit-filter: brightness(0.6) contrast(3.4) hue-rotate(217deg) saturate(9.9);
+  filter: brightness(0.6) contrast(3.4) hue-rotate(217deg) saturate(9.9);
 }
 header {
   display: flex;
@@ -172,16 +176,30 @@ header div p {
     font-size: 1.2rem;
   }
 }
-main {
+body {
   height: 100vh;
 }
-main .about-me-bio2 {
+.page2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page2 img {
+  width: 30%;
+  height: auto;
+}
+.page2 .about-me-bio2 {
   margin: 0 auto;
-  width: 20rem;
+  width: 90vw;
+}
+.page2 .about-me-bio2 h2 {
+  text-align: center;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
-  main .about-me-bio2 {
-    width: 50rem;
+  .page2 .about-me-bio2 {
+    width: 40vw;
   }
 }
 /* button */
@@ -304,6 +322,12 @@ nav .bottom-nav .fa-do {
   justify-content: space-evenly;
   align-items: center;
 }
+.flex-between-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
 .flex-between {
   display: flex;
   justify-content: space-between;
@@ -363,6 +387,7 @@ main .container {
 }
 main #myCarousel {
   height: auto;
+  margin: 2rem 0 4rem 0;
 }
 main #myCarousel .carousel-inner img {
   height: 80%;
@@ -582,6 +607,50 @@ main #myCarousel .carousel-inner img {
     text-align: center;
     width: 60rem;
     font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .page2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .page2 img {
+    margin: 2rem;
+    width: 30%;
+    height: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .page2 img {
+    margin: 0 0 2rem 5rem;
+    width: 20%;
+    height: auto;
+  }
+}
+@media (min-width: 768px) {
+  .page2 .about-me-bio2 {
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 90vw;
+  }
+  .page2 .about-me-bio2 h2 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  .page2 .about-me-bio2 {
+    font-size: 3rem;
+    margin: 0 auto;
+    width: 90vw;
+  }
+}
+@media (min-width: 768px) {
+  .page2 .about-me-bio2 {
+    width: 40vw;
   }
 }
 @media (max-width: 768px) {

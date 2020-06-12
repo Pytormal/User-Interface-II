@@ -19,17 +19,22 @@ nav {
       background-size: 200% 100%;
       background-position: 100%;
 
-      transition: background-position 1200ms ease;
+      transition: background-position 1s;
     }
   }
+  img:hover {
+    -webkit-filter: brightness(0.6) contrast(3.4) hue-rotate(217deg)
+      saturate(9.9);
+    filter: brightness(0.6) contrast(3.4) hue-rotate(217deg) saturate(9.9);
+  }
 }
-
 header {
   .flex-column;
   align-items: flex-end;
   padding: 2rem 1rem;
   width: auto;
   margin: 2px;
+
   div {
     padding: 2rem 0.2rem;
     h2 {
@@ -54,17 +59,28 @@ header {
     }
   }
 }
-main {
+body {
   height: 100vh;
-.about-me-bio2{
-  margin:0 auto;
-  width:20rem;
-
-  @media @tablet{
-    width:50rem;
-  }
 }
 
+.page2 {
+  .flex-column;
+  img {
+    width: 30%;
+    height: auto;
+  }
+  // margin: auto;
+  .about-me-bio2 {
+    h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+    margin: 0 auto;
+    width: 90vw;
+    @media @tablet {
+      width: 40vw;
+    }
+  }
 }
 // img{
 //   display:relative;

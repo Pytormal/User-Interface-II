@@ -174,12 +174,52 @@ nav {
   }
 }
 
+// page2 Bio text / img in 'About'
+.page2 {
+  @media @tablet {
+    .flex-between-row;
+  }
+  img {
+    @media @tablet {
+      margin: 2rem;
+      width: 30%;
+      height: auto;
+    }
+    @media @desktop {
+      margin: 0 0 2rem 5rem;
+      width: 20%;
+      height: auto;
+    }
+  }
+
+  .about-me-bio2 {
+    @media @tablet {
+      font-size: 2rem;
+      margin: 0 auto;
+      width: 90vw;
+
+      h2 {
+        font-size: 4rem;
+      }
+    }
+
+    @media @desktop {
+      font-size: 3rem;
+      margin: 0 auto;
+      width: 90vw;
+    }
+
+    @media @tablet {
+      width: 40vw;
+    }
+  }
+}
+
 // Project rows for tablet and desktop
 main {
-    
-    @media @Ttablet{
-        height: auto;
-    }
+  @media @Ttablet {
+    height: auto;
+  }
   .horizontal-scroll {
     @media @tablet {
       display: block;
@@ -206,7 +246,6 @@ main {
 
   //project columns for mobile Projects Page
   .vertical-scroll {
-    
     @media @tablet {
       display: unset;
       .top-row,
